@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+nav {
+    padding: 20px 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navigation a img {
+    height: 65px;
+}
+
+.navigation .menu-links a {
+    margin-left: 2rem;
+}
+
+header {
+    background-color: #9d5fdab2;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.hero-info {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-info h1,
+p.title,
+h2 {
+    font-size: 50px;
+}
+
+
+
+.hero-picture {
+    width: 40%;
+    overflow: hidden;
+}
+
+.hero-picture img {
+    width: 80%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+section .history p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+section.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .informate {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    width: 70%;
+}
+
+section .informate .history {
+    flex: 70%;
+}
+
+section .informate img {
+    width: 100%;
+}
+
+section {
+    padding: 24px 48px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section .projects-container {
+    height: 80vh;
+    padding: 0 32px;
+}
+
+section .projects-container h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+section .container a {
+    transition: all .3s ease;
+}
+
+section .container a:hover {
+    opacity: .4;
+}
+
+
+section .container img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 80px;
+}
+
+footer img.logo1 {
+    height: 60px;
+    width: auto;
+}
+
+footer img.logo2 {
+    height: 80px;
+    width: auto;
+}
+
+footer .text-content span {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}

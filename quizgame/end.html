@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/bc7a912712.js" crossorigin="anonymous"></script>
+    <title>End</title>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form action="#" class="end-form-container">
+                <h2 id="end-text">Escribe tu nombre para poder guardar tu puntuacion!</h2>
+                <input type="text" name="name" id="username" placeholder="Nombre">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Guardar</button>
+            </form>
+            <a href="./game.html" class="btn">Juegar otra vez</a>
+            <a href="./index.html" class="btn">Home<i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="js/end.js"></script>
+</body>
+</html>

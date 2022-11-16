@@ -1,0 +1,104 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+div {
+    width: 100%;
+}
+
+main {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+}
+
+main section {
+    width: min(100%, 800px);
+    padding: 2rem;
+    border-radius: .25rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 94, 61);
+}
+
+main section h1 {
+    text-align: center;
+    color: white;
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
+}
+
+main section .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main section .options .btn {
+    width: 150px;
+    height: 55px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.125rem;
+    border-radius: .25rem;
+    padding: 1rem;
+}
+
+main section .get {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+main section .get label {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    display: block;
+}
+
+main section .get input {
+    padding: 1rem;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
+
+main section .get button {
+    padding: .5rem;
+    border-radius: .25rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+main section .set p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 428px) {
+    /* main {
+        height: max(100vh, 3000px);
+    } */
+}
